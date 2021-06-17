@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".AdminActivity">
+
+    <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="133dp"
+            android:layout_height="155dp"
+            app:srcCompat="@drawable/logo" />
+
+    <TextView
+            android:id="@+id/textAdmin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Admin"
+            android:layout_margin="30dp"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+    <!--<ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="400dp"
+        android:layout_marginBottom="8dp"
+        android:scrollbars="vertical|horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_tambah">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical|horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_tambah">
+-->
+
+        <EditText
+        android:id="@+id/txUsernameAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="Masukkan Nama Admin"
+        android:inputType="textPersonName" />
+
+
+        <EditText
+            android:id="@+id/txJumlahMata"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Masukkan Jumlah Mata"
+            android:inputType="textPersonName"/>
+
+        <EditText
+            android:id="@+id/txJangkaWaktu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Masukkan Jangka Waktu"
+            android:inputType="textPersonName"/>
+
+        <EditText
+            android:id="@+id/txJumlahSlot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Masukkan Jumlah Slot"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/txJenisBank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Masukkan Nama Bank"
+            android:inputType="textPersonName" />
+        <EditText
+            android:id="@+id/txNoRekening"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Masukkan No Rekening"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Submit" />
+
+        <!--</HorizontalScrollView>
+    </ScrollView>-->
+</LinearLayout>
